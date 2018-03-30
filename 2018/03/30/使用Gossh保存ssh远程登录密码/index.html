@@ -239,7 +239,7 @@
 
     
         <meta property="article:published_time" content="Fri Mar 30 2018 16:28:19 GMT+0800">
-        <meta property="article:modified_time" content="Fri Mar 30 2018 22:42:42 GMT+0800">
+        <meta property="article:modified_time" content="Fri Mar 30 2018 23:44:04 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -262,7 +262,7 @@
     "mainEntityOfPage": "http://maqian.cc/2018/03/30/使用Gossh保存ssh远程登录密码/index.html",
     "headline": "使用Gossh保存ssh远程登录密码",
     "datePublished": "Fri Mar 30 2018 16:28:19 GMT+0800",
-    "dateModified": "Fri Mar 30 2018 22:42:42 GMT+0800",
+    "dateModified": "Fri Mar 30 2018 23:44:04 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "马乾",
@@ -488,7 +488,7 @@
 <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://github.com/i183/gossh/releases" target="_blank" rel="noopener">https://github.com/i183/gossh/releases</a></p>
 <h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>下载后建议把gossh放到 /usr/bin 目录下，这样无需配置环境变量便可在任意目录下调用</p>
 <h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>添加一个远程服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh add &lt;服务器名称&gt; &lt;用户名&gt; &lt;IP&gt; &lt;端口&gt; &lt;密码&gt;</span><br></pre></td></tr></table></figure></p>
-<p>例如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh add serverName root@127.0.0.1 22 password</span><br></pre></td></tr></table></figure></p>
+<p>例如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh add serverName root 127.0.0.1 22 password</span><br></pre></td></tr></table></figure></p>
 <h4 id="conn"><a href="#conn" class="headerlink" title="conn"></a>conn</h4><p>连接远程服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh conn &lt;服务器名称&gt;</span><br></pre></td></tr></table></figure></p>
 <p>例如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh conn serverName</span><br></pre></td></tr></table></figure></p>
 <h4 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h4><p>显示所有服务器列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gossh ls</span><br></pre></td></tr></table></figure></p>
